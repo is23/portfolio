@@ -132,7 +132,7 @@ header {
   z-index: 2;
   width: 100%; }
 
-.text-secondry {
+.text-secondary {
   color: #eece1a; }
 
 main {
@@ -153,10 +153,12 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1';
+  grid-template-areas: 'bioimage bio bio' 'job1 . .';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
+    width: 250px;
+    height: 250px;
     margin: auto;
     border-radius: 50%;
     border: #eece1a 3px solid; }

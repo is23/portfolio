@@ -44,7 +44,7 @@ header {
     width: 100%;
 }
 
-.text-secondry {
+.text-secondary {
     color:$secondary-color;
 }
 
@@ -79,11 +79,13 @@ main {
     grid-gap: 30px;
     grid-template-areas: 
     'bioimage bio bio'
-    'job1';
+    'job1 . .';
     grid-template-columns: repeat(3,1fr);
 
     .bio-image {
         grid-area: bioimage;
+        width: 250px;
+        height: 250px;
         margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
