@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive website",
   "main": "index.js",
-  "homepage" : "https://github.io/portfolio",
+  "homepage" : "https://is23.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy" : "gh-pages -d dist",
